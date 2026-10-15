@@ -1,9 +1,65 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Página-1" id="lqTTsOtQjJAsxGjOP1kP">
-    <mxGraphModel>
+    <mxGraphModel dx="1101" dy="709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="2000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="i7_ZAdayz95KdbarMdON-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Administrador" vertex="1">
+          <mxGeometry height="60" width="30" x="180" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="i7_ZAdayz95KdbarMdON-4" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Mesero" vertex="1">
+          <mxGeometry height="60" width="30" x="180" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="i7_ZAdayz95KdbarMdON-5" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Cajero" vertex="1">
+          <mxGeometry height="60" width="30" x="180" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="i7_ZAdayz95KdbarMdON-6" parent="1" style="html=1;whiteSpace=wrap;" value="" vertex="1">
+          <mxGeometry height="510" width="600" x="270" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="i7_ZAdayz95KdbarMdON-7" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Administrar menú" vertex="1">
+          <mxGeometry height="70" width="140" x="310" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="i7_ZAdayz95KdbarMdON-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Abrir orden" vertex="1">
+          <mxGeometry height="70" width="140" x="310" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="i7_ZAdayz95KdbarMdON-9" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Agregar linea de pedido" vertex="1">
+          <mxGeometry height="70" width="140" x="310" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="i7_ZAdayz95KdbarMdON-10" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Modificar o cancelar linea" vertex="1">
+          <mxGeometry height="70" width="140" x="310" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="i7_ZAdayz95KdbarMdON-11" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Cerrar orden y pagar" vertex="1">
+          <mxGeometry height="70" width="140" x="310" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="i7_ZAdayz95KdbarMdON-13" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Validar estado de cocina" vertex="1">
+          <mxGeometry height="70" width="140" x="580" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="i7_ZAdayz95KdbarMdON-14" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Calcular totales" vertex="1">
+          <mxGeometry height="70" width="140" x="580" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="i7_ZAdayz95KdbarMdON-15" edge="1" parent="1" source="i7_ZAdayz95KdbarMdON-10" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="i7_ZAdayz95KdbarMdON-13" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" x="-0.0769" y="15" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="200" y="250" as="sourcePoint" />
+            <mxPoint x="360" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i7_ZAdayz95KdbarMdON-17" edge="1" parent="1" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" x="-0.0769" y="14" as="geometry">
+            <mxPoint y="-1" as="offset" />
+            <mxPoint x="450" y="524.5" as="sourcePoint" />
+            <mxPoint x="580" y="524.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i7_ZAdayz95KdbarMdON-18" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Pasarela de pagos" vertex="1">
+          <mxGeometry height="60" width="30" x="640" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="i7_ZAdayz95KdbarMdON-21" edge="1" parent="1" source="i7_ZAdayz95KdbarMdON-11" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;" target="i7_ZAdayz95KdbarMdON-18" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="570" y="660" as="sourcePoint" />
+            <mxPoint x="730" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
