@@ -1,14 +1,9 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Página-1" id="f5jAOOdYhGZA4bCUxivt">
-    <mxGraphModel dx="1027" dy="2661" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="2000" math="0" shadow="0">
+    <mxGraphModel dx="1101" dy="2709" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="2000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="30xWSbk4IkDBrLZN5Hnt-1" edge="1" parent="1" source="VNSEL1r4TrBCllYFMJmz-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=none;endFill=0;" target="30xWSbk4IkDBrLZN5Hnt-2">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="239.6699029126213" y="-15.291262135922352" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="VNSEL1r4TrBCllYFMJmz-1" parent="1" style="whiteSpace=wrap;html=1;align=center;" value="Orden" vertex="1">
           <mxGeometry height="40" width="100" x="190" y="110" as="geometry" />
         </mxCell>
@@ -195,7 +190,7 @@
         <mxCell id="VNSEL1r4TrBCllYFMJmz-54" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="estado de cocina" vertex="1">
           <mxGeometry height="40" width="100" x="900" y="230" as="geometry" />
         </mxCell>
-        <mxCell id="VNSEL1r4TrBCllYFMJmz-55" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="tasa de impuesto" vertex="1">
+        <mxCell id="VNSEL1r4TrBCllYFMJmz-55" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="tasa de impuesto aplicada" vertex="1">
           <mxGeometry height="40" width="100" x="880" y="400" as="geometry" />
         </mxCell>
         <mxCell id="VNSEL1r4TrBCllYFMJmz-56" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="precio unitario" vertex="1">
@@ -294,7 +289,7 @@
         <mxCell id="VNSEL1r4TrBCllYFMJmz-76" parent="1" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" value="Incluye" vertex="1">
           <mxGeometry height="60" width="120" x="1130" y="510" as="geometry" />
         </mxCell>
-        <mxCell id="VNSEL1r4TrBCllYFMJmz-77" edge="1" parent="1" source="VNSEL1r4TrBCllYFMJmz-48" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=ERmandOne;startFill=0;endFill=0;" target="VNSEL1r4TrBCllYFMJmz-76" value="">
+        <mxCell id="VNSEL1r4TrBCllYFMJmz-77" edge="1" parent="1" source="VNSEL1r4TrBCllYFMJmz-48" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=ERmany;startFill=0;endFill=0;" target="VNSEL1r4TrBCllYFMJmz-76" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1190" y="350" />
@@ -341,9 +336,6 @@
             <mxPoint x="1390" y="600" as="sourcePoint" />
             <mxPoint x="1425" y="616" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="30xWSbk4IkDBrLZN5Hnt-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="referencia de pago" vertex="1">
-          <mxGeometry height="40" width="100" x="189.6699029126213" y="-35.29126213592235" as="geometry" />
         </mxCell>
         <mxCell id="30xWSbk4IkDBrLZN5Hnt-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;" value="referencia" vertex="1">
           <mxGeometry height="40" width="100" x="315" y="237" as="geometry" />
